@@ -49,3 +49,35 @@ input[name="r"] {
     visibility: hidden;
     position: absolute;
 }
+
+.slides {
+    width: 400%;
+    height: 100%;
+    display: flex;
+}
+
+.slide {
+    width: 25%;
+    transition: all .6s ease;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+#r1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#r2:checked ~ .s1 {
+    margin-left: -25%;
+}
+
+#r3:checked ~ .s1 {
+    margin-left: -50%;
+}
+
+#r4:checked ~ .s1 {
+    margin-left: -75%;
+}
