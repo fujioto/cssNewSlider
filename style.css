@@ -20,3 +20,11 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+input {
+    position: absolute;
+    bottom: 16px;
+    left: 50px;
+    transform: translateX(-50%);
+    display: flex;
+}
